@@ -3,8 +3,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .episodeItems {
-  display: flex;
+  display: grid;
   color: white;
   font-size: xx-large;
   font-family: fantasy;
@@ -12,10 +13,18 @@ body {
   width: 50%;
   gap: 1ch;
 }
+
+.episodeItems:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
 h1 {
   color: white;
 }
+
 .episodeDetails {
   color: white;
-  display: flex;
+  grid-column: 2;
+  font-weight: bold;
 }

@@ -3,7 +3,7 @@ import { episodeList } from "./data";
 
 export default function App() {
   // TODO
-  const [clickedEpisode, setClickedEpisode] = useState(null);
+  const [clickedEpisode, setClickedEpisode] = useState();
 
   const displayEpisode = (episode) => {
     setClickedEpisode(episode);
