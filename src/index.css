@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.episodeItems {
+  display: flex;
+  color: white;
+  font-size: xx-large;
+  font-family: fantasy;
+  border-bottom: 0.5px solid gray;
+  width: 50%;
+  gap: 1ch;
+}
+h1 {
+  color: white;
+}
+.episodeDetails {
+  color: white;
+  display: flex;
+}
